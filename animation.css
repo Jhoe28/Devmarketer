@@ -1,0 +1,58 @@
+
+@keyframes leftIn {
+   from{
+      transform: translateX(-200px);
+      opacity: 0;
+   }
+   to{
+      transform: translateX(0);
+      opacity: 1;
+   }
+}
+@keyframes zoomOut {
+   from{
+      transform: scale(0);
+   }
+   to{
+      transform: scale(1);
+      opacity: 1;
+   }
+}
+@keyframes rotate {
+   from{
+      transform: rotateY(0);
+   }
+   to{
+      transform: rotateY(360deg);
+      opacity: 1;
+   }
+}
+@keyframes topIn {
+   from{
+      transform: translateY(-200px);
+   }
+   to{
+      transform: translateY(0);
+      opacity: 1;
+   }
+}
+@keyframes slideIn {
+   from{
+      transform: translateX(-100%);
+      opacity: 0;
+   }
+   to{
+      transform: translateX(0);
+      opacity: 1;
+   }
+}
+@keyframes slideIN {
+   from{
+      transform: scale(0);
+      opacity: 0;
+   }
+   to{
+      transform: scale(1);
+      opacity: 1;
+   }
+}
