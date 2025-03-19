@@ -9,6 +9,16 @@
       opacity: 1;
    }
 }
+@keyframes rightIn {
+   from{
+      transform: translateX(200px);
+      opacity: 0;
+   }
+   to{
+      transform: translateX(0);
+      opacity: 1;
+   }
+}
 @keyframes zoomOut {
    from{
       transform: scale(0);
@@ -30,6 +40,15 @@
 @keyframes topIn {
    from{
       transform: translateY(-200px);
+   }
+   to{
+      transform: translateY(0);
+      opacity: 1;
+   }
+}
+@keyframes bottomIn {
+   from{
+      transform: translateY(200px);
    }
    to{
       transform: translateY(0);

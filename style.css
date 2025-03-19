@@ -136,6 +136,7 @@ ul{
     justify-content: center;
     align-items: center;
     z-index: 10;
+    animation: leftIn 3.2s ease-out forwards;
 }
 
 .aside .logo{
@@ -143,7 +144,7 @@ ul{
     top: 50px;
     font-size: 30px;
     text-transform: capitalize;
-    animation: 0.8s topIn ease-out forwards;
+    animation: 1.8s zoomOut ease-out forwards;
     animation-delay: 0.3s;
     opacity: 0;
 }
@@ -243,6 +244,7 @@ ul{
     border-bottom: 1px solid var(--bg-black-50);
     color: var(--text-black-900);
     padding: 5px 15px;
+    animation: zoomOut 3.4s ease-out forwards;
 }
 .aside .nav li a.active{
     color: var(--skin-color);
@@ -263,30 +265,36 @@ ul{
 h2.name{
    font-size: 2em;
    margin: 15px 0;
+   animation: 4s topIn ease-out forwards;
 }
 h2 span{
    font-family: 'Clicker Script', cursive;
    font-size: 3rem;
    font-weight: 700;
    color: var(--skin-color);
+   animation: 2.6s bottomIn ease-out forwards;
 }
 h3.profession{
    font-size: 30px;
    margin: 15px 0;
+   animation: 3.2s leftIn ease-out forwards;
 }
 h3 span{
    color: var(--skin-color);
+   animation: 4.5s slideIN ease-out forwards;
 }
 .home-info p{
    margin-bottom: 70px;
    font-size: 20px;
    color: var(--text-black-700);
+   animation: 3.2s leftIn ease-out forwards;
 }
 .home .home-img{
    flex: 0 0 40%;
    max-width: 40%;
    text-align: center;
    position: relative;
+   animation: zoomOut 3.4s ease-out forwards;
 }
 .home .home-img::after{
    content: '';
@@ -306,6 +314,9 @@ h3 span{
    border-left: 10px solid var(--skin-color);
    top: -40px; left: 20px;
    
+}
+.home .cta-btn{
+   animation: bottomIn 3.2s ease-out forwards;
 }
 .home .home-img img{
    height: 400px;
@@ -790,6 +801,7 @@ section.testimonial{
    line-height: 25px;
    letter-spacing: 1px;
    margin-bottom: 15px;
+   color: var(--text-black-900);
 }
 
 @media(max-width:1199px){
