@@ -661,56 +661,6 @@ h3 span{
 .portfolio .portfolio-item .portfolio-img:hover .layer{
     height: 100%;
 }
-/* testimonial */
-
-section.testimonial{
-    padding: 2.5rem;
-}
-.testimonial .scroll{
-   display: flex;
-   gap:10px;
-   flex-wrap: nowrap;
-   overflow-x: scroll;
-}
-.testimonial .slide{
-   width: 100%;
-   border: 1px solid var(--skin-color);
-   border-radius: 10px;
-   position: relative;
-}
-.testimonial .slide .fa-quote-right{
-    position: absolute;
-    top: 2rem;right: 2rem;
-    font-size: 6rem;
-    color: var(--bg-black-50);
-}
-.testimonial .slide .user{
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
-    padding-bottom: 1.5rem;
-}
-.testimonial .slide .user img{
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.testimonial .slide .user h3{
-    font-size: 2rem;
-    padding-bottom: .5rem;
-    color: var(--text-black-900);
-}
-.testimonial .slide .user i{
-    font-size: 1.3rem;
-    color: var(--skin-color);
-    
-}
-.testimonial .slide p{
-    font-size: 1.5rem;
-    line-height: 1.8;
-    color: var(--text-black-700);
-}
 /* contact */
 .contact-title{
    color: var(--skin-color);
@@ -758,22 +708,22 @@ section.testimonial{
    line-height: 25px;
    font-weight: 600;
 }
-.contact .contact-form{
+.contact form{
    flex: 0 0 100%;
    max-width: 100%;
 }
-.contact .contact-form .col-6{
+.contact form .col-6{
    flex: 0 0 50%;
    max-width: 50%;
 }
-.contact .contact-form .col-12{
+.contact form .col-12{
    flex: 0 0 100%;
    max-width: 100%;
 }
-.contact .contact-form .form-item{
+.contact form .form-item{
    margin-bottom: 30px;
 }
-.contact .contact-form .form-item .form-control{
+.contact .form-control{
    width: 100%;
    height: 50px;
    border-radius: 25px;
@@ -784,17 +734,17 @@ section.testimonial{
    color: var(--text-black-700);
    transition: all 0.3s ease;
 }
-.contact .contact-form .form-item .form-control:focus{
+.contact .form-control:focus{
    box-shadow: var(--box-shadow-1);
 }
-.contact .contact-form .form-item textarea.form-control{
+.contact textarea.form-control{
    height: 140px;
 }
-.contact .contact-form .form-item .form-control .cta-btn{
+.contact .cta-btn{
    height: 50px;
    padding: 0 50px;
 }
-.contact .contact-form .form-group label{
+.contact label{
    display: block;
    font-size: 18px;
    font-weight: 600;
